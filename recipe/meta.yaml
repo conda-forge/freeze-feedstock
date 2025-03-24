@@ -1,5 +1,5 @@
 {% set name = "freeze" %}
-{% set version = "0.1.6" %}
+{% set version = "0.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/charmbracelet/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: 0b9e9624697e0e15b6956414cfa7546795b6e8eeac217faa234189ec16189fb7
+  sha256: 69056f4aec7e7beafd4b5613d0be4682c355b8d3e4c55ce70555a2bdaad7ee27
 
 build:
   number: 0
